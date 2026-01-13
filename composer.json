@@ -1,0 +1,22 @@
+{
+  "name": "jonhassall/belongs-to-user-or-guest",
+  "description": "Trait for models that can belong to either a user or a guest session",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "JonHassall\\BelongsToUserOrGuest\\": "src/BelongsToUserOrGuest/"
+    }
+  },
+  "authors": [
+    {
+      "name": "jonhassall",
+      "email": "jon@jonhassall.com"
+    }
+  ],
+  "minimum-stability": "beta",
+  "require": {
+    "illuminate/http": "^10.0",
+    "illuminate/database": "^10.0",
+    "illuminate/support": "^10.0"
+  }
+}
