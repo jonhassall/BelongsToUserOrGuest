@@ -32,10 +32,36 @@ Attach this trait to your guest session model to manage guest sessions with cook
 
 ## Installation
 
+### Option 1: Via Packagist (Recommended)
+
 Install the package via Composer:
 
 ```bash
 composer require jonhassall/belongs-to-user-or-guest
+```
+
+### Option 2: Install Directly from GitHub
+
+You can install it directly from the GitHub repository. Add this to your `composer.json`:
+
+```json
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/jonhassall/BelongsToUserOrGuest.git"
+        }
+    ],
+    "require": {
+        "jonhassall/belongs-to-user-or-guest": "dev-main"
+    }
+}
+```
+
+Then run:
+
+```bash
+composer install
 ```
 
 ## Quick Start
