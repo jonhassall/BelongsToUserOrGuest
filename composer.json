@@ -15,8 +15,8 @@
   ],
   "minimum-stability": "beta",
   "require": {
-    "illuminate/http": "^10.0",
-    "illuminate/database": "^10.0",
-    "illuminate/support": "^10.0"
+    "illuminate/http": "^9.0|^10.0|^11.0|^12.0",
+    "illuminate/database": "^9.0|^10.0|^11.0|^12.0",
+    "illuminate/support": "^9.0|^10.0|^11.0|^12.0"
   }
 }
