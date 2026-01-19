@@ -152,13 +152,11 @@ trait BelongsToUserOrGuest
     }
 
     /**
-     * Get the owner (user or guest session) as an attribute.
+    * Get the owner of the model, either user or guest.
      */
-    protected function owner(): Attribute
+    public function owner()
     {
-        return Attribute::make(
-            get: fn() => $this->user_id ? $this->user : $this->guest,
-        );
+        return $this->user_id ? $this->user() : $this->guest();
     }
 
     /**
