@@ -80,6 +80,8 @@ git tag -a v1.0.2 -m "Release v1.0.2"
 git push origin main --tags
 ```
 
+Full release checklist: [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md)
+
 ## Quick Start
 
 ### Step 1: Set Up Your Guest Model
