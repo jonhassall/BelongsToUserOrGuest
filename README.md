@@ -64,6 +64,22 @@ Then run:
 composer install
 ```
 
+## Versioning and Branches
+
+- Stable releases use semantic version tags, for example: `v1.0.2`
+- The `main` branch is the primary development branch
+- Composer branch alias maps `dev-main` to `1.x-dev` for users tracking development
+- Patch releases should branch from `main`, then be tagged and pushed
+
+Release example:
+
+```bash
+git checkout main
+git pull origin main
+git tag -a v1.0.2 -m "Release v1.0.2"
+git push origin main --tags
+```
+
 ## Quick Start
 
 ### Step 1: Set Up Your Guest Model
