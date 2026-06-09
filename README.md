@@ -26,7 +26,7 @@ Attach this trait to your guest session model to manage guest sessions with cook
 
 ## Requirements
 
-- **Laravel:** 10.x or higher
+- **Laravel:** 10.x through 13.x
 - **PHP:** 8.1 or higher
 - **Cookies:** This package uses cookies to track guest sessions and does not require Laravel's session driver to be configured. All guest session management is handled entirely through cookies, making it lightweight and independent of your application's session configuration.
 
